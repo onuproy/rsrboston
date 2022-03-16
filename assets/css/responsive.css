@@ -1,0 +1,389 @@
+@media all and (max-width: 1300px) {
+	.about-area::after {
+		left: -71px;
+		background-size: cover;
+		background-position: center;
+	}
+	.work-banner-area::after {
+		background: url(../images/banner/shap2.png);
+		background-size: cover;
+		background-position: center;
+		left: -71px;
+	}
+	.gallery-area::after {
+		height: 460px;
+	}
+	.gallery-area::before {
+		height: 460px;
+	}
+	.voiceover-area::after {
+		right: -71px;
+	}
+}
+
+@media all and (max-width: 1199px) {
+	.about-area::after {
+		left: -81px;
+	}
+	.contact-button {
+		width: 340px;
+		height: 160px;
+		margin-top: 0px;
+	}
+	.contact-button a {
+		margin-top: 55px;
+	}
+	.contact-button::after {
+		width: 60px;
+		height: 75px;
+		left: -55px;
+	}
+	.menubar-area ul li a {
+		font-size: 18px;
+	}
+	.menubar-area ul li {
+		margin-right: 45px;
+	}
+	.header-contact-button a {
+		font-size: 18px;
+	}
+	.work-banner-area::after {
+		left: -106px;
+	}
+	.work-banner-image {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.work-banner-content h2 {
+		font-size: 45px;
+		line-height: 1.5;
+	}
+	.voiceover-area::after {
+	    right: 0;
+	}
+	.voiceover-area:after {
+	    width: 103px;
+	    background-size: cover;
+	    right: 0;
+	}
+	.button-content-area h2 {
+		font-size: 45px;
+	}
+	.voice-content {
+		max-width: 195px;
+	}
+	.production-content .real-image {
+		max-width: 360px;
+	}
+	.production-content span img {
+		max-width: 45px;
+	}
+	.work-banner-content a {
+		font-size: 18px;
+	}
+	.shap-title h2 {
+		font-size: 18px;
+	}
+	.shap-title2 h2 {
+		font-size: 18px;
+	}
+	.shap-title {
+	    right: 0;
+	}
+
+
+
+
+
+
+
+
+
+
+}
+@media all and (min-width:992px) and (max-width: 1199px){
+
+}
+@media all and (max-width: 991px) {
+	.menubar-area {
+		position: fixed;
+		background: #000;
+		left: -100%;
+		height: 100%;
+		top: 0;
+		width: 340px;
+		padding: 60px 20px 20px 20px;
+		z-index:9;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	.menubar-area ul {
+		display: block;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.menubar-area ul li {
+		margin-right: 0;
+		margin-bottom: 14px;
+	}
+	.menubar-area ul li a {
+		color: #fff;
+	}
+	.bar-area {
+		display: inline-block;
+		cursor: pointer;
+	}
+	.banner-image {
+		margin-top: 60px;
+	}
+	.banner-image::after {
+		display: none;
+	}
+	.banner-image span {
+		padding-left: 0;
+	}
+	.category-profile-area {
+		padding-left: 106px;
+	}
+	.gallery-area {
+		background: #4DF51A;
+		padding: 140px 0 90px;
+	}
+	.gallery-area::after {
+		width: 190px;
+		height: 340px;
+	}
+	.gallery-area::before {
+		width: 189px;
+		height: 340px;
+	}
+	.offcanvas-area{
+		left:0;
+	}
+	.work-banner-area::after {
+		display: none;
+	}
+	.work-banner-content {
+		text-align: center;
+		max-width: 100%;
+		padding-top:30px;
+		margin-bottom: 30px;
+	}
+	.shap-title {
+		right: 0;
+		left: 0;
+	}
+	.voiceover-area::after {
+		right: -95px;
+		display: none;
+	}
+	.headshort-gallery.gallery-area {
+		padding-bottom: 130px;
+	}
+	.production-content {
+		position: relative;
+		text-align: center;
+	}
+	.production-content span img {
+		-webkit-transform: rotate(390deg);
+		    -ms-transform: rotate(390deg);
+		        transform: rotate(390deg);
+		position: relative;
+		top: -11px;
+	}
+	.production-content span {
+		right: 0;
+		bottom: 16.5%;
+	}
+	.gallery-area.gallery-area2 {
+		padding-bottom: 130px;
+	}
+	.parrot-area.button-content-area {
+		padding-top: 30px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.button-content-area h3 {
+		text-align: center;
+	}
+	.voice-content {
+		max-width: 195px;
+		margin: auto;
+	}
+	.voice-content a.button {
+		margin-top: 20px;
+	}
+	.work-banner-content h2 {
+		padding-bottom: 30px;
+	}
+}
+@media all and (max-width: 767px) {
+	.button-content-area {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.button-content-area h3 {
+		text-align: center;
+	}
+	.voice-content {
+		max-width: 100%;
+	}
+	.button-content-area h2 {
+		text-align: center;
+	}
+	.production-content p {
+		font-size: 18px;
+		right: -46px;
+		bottom: 60%;
+	}
+	.production-content span {
+		right: -14px;
+		bottom: 12.5%;
+	}
+}
+@media all and (max-width: 575px) {
+	.header-contact-button a {
+		font-size: 14px;
+		padding: 4px 11px;
+	}
+	.header-social ul li {
+		margin-right: 12px;
+	}
+	.header-social ul li a i {
+		font-size: 20px;
+		color: #000000;
+	}
+	.banner-content h4 {
+		font-size: 25px;
+	}
+	.banner-content h1 {
+		font-size: 35px;
+		line-height: 1.5;
+	}
+	.banner-image span {
+		font-size: 25px;
+		padding-top: 15px;
+	}
+	.category-profile-area {
+		padding-left: 0;
+		padding-top:30px;
+	}
+	.category-list ul li {
+		font-size: 25px;
+		line-height: 1.5;
+	}
+	.about-area::after {
+		left: -81px;
+		display: none;
+	}
+	.profile-image {
+		padding-left: 0;
+	}
+	.about-content h2 {
+		font-size: 35px;
+		line-height: 1.5;
+		padding-bottom: 30px;
+	}
+	.about-content p {
+		font-size: 16px;
+	}
+	.contact-button a {
+		font-size: 16px;
+	}
+	.gallery-area {
+		background: #4DF51A;
+		padding: 120px 0 90px;
+	}
+	.gallery-area::after {
+		width: 145px;
+		height: 440px;
+	}
+	.gallery-area::before {
+		width: 145px;
+		height: 440px;
+	}
+	.gallery-area {
+		padding: 120px 0 60px;
+	}
+	.contact-area {
+		padding: 60px 0;
+	}
+	.contact-content h2 {
+		font-size: 35px;
+		line-height: 1.5;
+	}
+	.contact-content label {
+		font-size: 20px;
+	}
+	.input-field input {
+		height: 51px;
+	}
+	.message-field textarea {
+		height: 140px;
+	}
+	.submit-button input {
+		font-size: 16px;
+	}
+	.contact-button {
+		right: 0;
+	}
+	.work-banner-content h2 {
+		font-size: 35px;
+	}
+	.button-content-area h3 {
+		font-size: 20px;
+	}
+	.button-content-area h2 {
+		font-size: 35px;
+	}
+	.production-content .production-image {
+		max-width: 260px;
+	}
+	.production-content .real-image {
+		max-width: 245px;
+	}
+	.production-content p {
+		font-size: 12px;
+		right: -30px;
+		bottom: 53%;
+		max-width: 140px;
+	}
+	.production-content span {
+		right: -6px;
+		bottom: 10.5%;
+		font-size: 12px;
+	}
+	.production-content span img {
+		-webkit-transform: rotate(390deg);
+		    -ms-transform: rotate(390deg);
+		        transform: rotate(390deg);
+		position: relative;
+		top: -23px;
+		left: 56px;
+		max-width: 30px;
+	}
+	.button-content-area img {
+		width: 40px;
+	}
+	.work-banner-content a {
+		font-size: 16px;
+	}
+	.shap-title h2 {
+		font-size: 16px;
+	}
+	.shap-title2 h2 {
+		font-size: 16px;
+	}
+}
+@media all and (max-width: 450px) {
+
+	.shap-title2 {
+	    width: 362px;
+	}
+	.shap-title {
+	    width: 375px;
+	}
+		
+}
